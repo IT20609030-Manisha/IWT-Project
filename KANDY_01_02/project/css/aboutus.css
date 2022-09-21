@@ -1,0 +1,63 @@
+body
+{
+	background-image:url("../images/about1.jpg");
+	background-repeat:no repeat;
+	background-size:cover;
+
+	
+}
+
+ul.link 
+{
+	list-style-type: none ;	
+	padding: 12px;
+	margin: 0;			
+	background-color: #004d66;
+	overflow : hidden ;
+}
+
+li.link 
+{
+	float:left;
+	
+}
+
+li a 
+{
+	text-decoration : none ;
+	color : white ;
+	padding : 14px 30px;
+	text-align:center;
+	font-size:20;
+	
+}
+
+li a:hover {
+  background-color: black;
+}
+
+footer { 
+  background: #4e5b65; 
+  height: 150px;
+  width: 1505px; 
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+ 
+ 
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link a:hover 
+{
+  color: orange;
+}

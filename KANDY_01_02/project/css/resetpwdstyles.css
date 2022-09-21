@@ -1,0 +1,27 @@
+/*-------Reset Password--------*/
+
+#restbtn{
+	border: 2px solid 90@ABx#;
+	padding: 10px 24px;
+	font-size: 15px;
+	background-color: #ffcc00;
+	border: none;
+	color: #5c5c8a;
+	text-align: center;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#restbtn:hover {opacity: 1;}
+
+
+#forgotpwdsection{
+	background-image:url("../images/forgotpwd3.png");
+	background-repeat:no-repeat;
+	background-size: auto;
+	background-position: bottom right;
+}
+

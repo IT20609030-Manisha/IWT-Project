@@ -1,0 +1,66 @@
+create table customer
+(
+   customer_ID integer AUTO_INCREMENT,
+   firstName varchar(50) NOT NULL,
+   lastName varchar(50),
+   gender varchar(20),
+   dateOfBirth date,
+   mobileNo char(10) UNIQUE,
+   email varchar(50) UNIQUE,
+   password char(10),
+   
+   constraint pk_customer_ID
+   primary key (customer_ID)  
+);
+
+
+create table ride_zone
+(
+	Booking_ID integer AUTO_INCREMENT,
+	Pick_Up_Location varchar(50),
+	Pick_Up_Date date,
+	Pick_Up_Time time,
+	Drop_Location varchar(50),
+	Drop_Date date,
+	Drop_Time time,
+    
+    constraint pk_bookingId
+    primary key(Booking_ID)
+    
+);
+
+create table package
+(
+	package_ID char(10) PRIMARY KEY,
+	package_type varchar(50),
+	route varchar(50),
+	duration time,
+	amount float
+);
+
+create table vehicles
+(
+	Vehicle_ID int AUTO_INCREMENT,
+	Vehicle_Number varchar(10) UNIQUE,
+	Vehicle_type varchar(10),
+	Colour varchar(10),
+	Brand varchar(20),
+	Location varchar(20),
+	No_Of_Passengers int,
+	No_Of_Luggages int,
+	AC_status varchar(7),
+	Owner_Name varchar(50),
+	Owner_Contact char(10),
+	
+	constraint pk_vehicle_ID
+	primary key(Vehicle_ID)
+);
+
+create table payment
+(
+	Payment_ID int AUTO_INCREMENT PRIMARY KEY,
+	Method varchar(15),
+	Card_Number varchar(16),
+	CVV int,
+	Expiry_Date date
+)

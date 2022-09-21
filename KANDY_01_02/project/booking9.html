@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  
+.bg 
+{
+ 
+  background-color:#669DB3FF;
+  width:100%;
+  height:735px;
+ 
+}
+
+.submit9
+{
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit9:hover
+{
+  background-color: #45a049;
+}
+
+.form
+{
+  position: absolute;
+  margin-left:530px;
+  margin-top:200px;
+  max-width: 600px;
+  padding: 16px;
+  background-color: #F0F6F7FF;
+  font-weight: bold;
+
+    
+}
+</head>
+</style>
+<body>
+
+<div class="bg">
+
+
+<fieldset class="form">
+	<center> <h3> Colombo to Trincomalee</h3> </center>
+	
+	<select name="days" id="days">
+	<option value="18 Hours"> 18 Hours </option> 
+	<option value="2 Days"> 2 Days  </option>
+	<option value="3 Days"> 3 Days </option>
+	<option value="5 Days"> 5 Days </option>
+	</select>
+	<br>
+	<br>
+
+	<input type="radio" name="vehicle type" value="Car" checked>
+	<labe for="Car">Car &nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp        Max-passengers &nbsp &nbsp &nbsp 4 &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp    250KM &nbsp  &nbsp  &nbsp  &nbsp &nbsp   12000LKR</lable>
+	
+	<br> <br> <br>
+
+	<input type="radio" name="vehicle type" value="Mini Van">	
+	<lable for="Mini Van">Mini Van &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp      Max-passengers &nbsp &nbsp &nbsp 8 &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp   250KM &nbsp  &nbsp  &nbsp  &nbsp &nbsp     14500LKR</lable><br>
+	
+	<br> <br> 
+
+	<input type="radio" name="vehicle type" value="Van">	
+	<lable for="Van">Van  &nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      Max-passengers &nbsp &nbsp  10 &nbsp  &nbsp  &nbsp  &nbsp &nbsp   250KM &nbsp  &nbsp  &nbsp  &nbsp &nbsp   16000LKR</lable><br>
+
+	<br> <br> <br>
+
+	<button onclick="myFunction()" class=submit9>Place a Booking</button> 
+
+	<p id="demo"></p>
+	
+<script>
+function myFunction()
+ {
+ 
+  if (confirm("Do you want to confirm the booking!")) 
+  {
+   location.href="Payment1.php";
+  } 
+  else 
+  {
+   location.href="tourpackage.html";
+  }
+  document.getElementById("demo").innerHTML =location.href    ;
+}
+</script>
+</fieldset>
+</div>
+
+
+</body>
+</html>

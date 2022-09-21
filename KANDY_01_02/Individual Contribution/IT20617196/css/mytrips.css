@@ -1,0 +1,409 @@
+body
+{
+	background-image:url("../images/trip1.jpg");
+	background-repeat:no repeat;
+	background-size:cover;
+	width:100%;
+	
+}
+
+
+.hist
+{
+
+	width:1500px;
+	height:30px; 
+	border : 3px solid black;
+	font-weight:bold;
+	text-indent:240px;
+	background-color: #004d66;
+	font-size:19px;	
+
+}
+
+.sidenav
+ {
+ 	 width: 180px;
+  	position: fixed;
+  	z-index: 1;
+  	top: 320px;
+  	left: 10px;
+ 	background: black;
+  	overflow-x: hidden;
+  	padding: 8px 0;
+}
+
+.sidenav a 
+{
+  	padding:20px 20px 20px 30px;
+  	text-decoration: none;
+  	font-size: 25px;
+	color: white;
+  	display: block;
+}
+
+
+.sidenav a:hover 
+{
+  color: orange;
+}
+
+
+.rec1
+{
+
+	width:800px;
+	height:250px; 
+	border : 3px solid black;
+	padding:25px;
+	margin-left:250px;
+	
+	
+	
+
+} 
+
+.para1
+{
+	
+	text-indent:20px;	
+	font-size:17px;
+	font-weight:bold;
+}
+
+.charge1
+{
+	text-indent:20px;
+	font-size:17px;
+	font-weight:bold;
+}
+
+
+
+.circle1
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	border-radius:50%;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.vl1
+{
+	border-left:4px solid black;
+	height:60px;
+	margin:5px;
+
+}
+
+.square1
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.rec2
+{
+
+	width:800px;
+	height:250px; 
+	border : 3px solid black;
+	padding:25px;
+	margin-left:250px;
+	margin-top:50px;
+}
+
+.para2
+{
+	text-indent:20px;	
+	font-size:17px;
+	font-weight:bold;
+}
+
+.charge2
+{
+	text-indent:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+.circle2
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	border-radius:50%;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.vl2
+{
+	border-left:4px solid black;
+	height:60px;
+	margin:5px;
+
+}
+
+.square2
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.rec3
+{
+
+	width:800px;
+	height:250px; 
+	border : 3px solid black;
+	padding:25px;
+	margin-left:250px;
+	margin-top:50px;
+}
+
+.para3
+{
+	text-indent:20px;	
+	font-size:17px;
+	font-weight:bold;
+}
+
+.charge3
+{
+	text-indent:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+.circle3
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	border-radius:50%;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.vl3
+{
+	border-left:4px solid black;
+	height:60px;
+	margin:5px;
+
+}
+
+.square3
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+
+.rec4
+{
+
+	width:800px;
+	height:250px; 
+	border : 3px solid black;
+	padding:25px;
+	margin-left:250px;
+	margin-top:50px;
+}
+
+.para4
+{
+	text-indent:20px;	
+	font-size:17px;
+	font-weight:bold;
+}
+
+.charge4
+{
+	text-indent:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+.circle4
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	border-radius:50%;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.vl4
+{
+	border-left:4px solid black;
+	height:60px;
+	margin:5px;
+
+}
+
+.square4
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+
+
+.rec5
+{
+
+	width:800px;
+	height:250px; 
+	border :3px solid black;
+	padding:25px;
+	margin-left:250px;
+	margin-top:50px;
+}
+
+.para5
+{
+	text-indent:20px;	
+	font-size:17px;
+	font-weight:bold;
+}
+
+.charge5
+{
+	text-indent:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+.circle5
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	border-radius:50%;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+
+}
+
+.vl5
+{
+	border-left:4px solid black;
+	height:60px;
+	margin:5px;
+
+}
+
+.square5
+{
+	
+	height:15px;
+	width:15px;
+	background-color:red;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:17px;
+	
+
+}
+
+footer { 
+  background: #4e5b65; 
+  height: 150px;
+  width: 1505px; 
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+ 
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.link a:hover 
+{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

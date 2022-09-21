@@ -1,0 +1,75 @@
+
+/*------Log in form------*/
+
+#LoginForm{
+	
+	text-align:left;
+	
+	margin-left:100px;
+	margin-right:300px;
+	margin-top: 35px;
+	
+	padding-top:25px ;
+	padding-right:30px;
+	padding-bottom:10px;
+	padding-left:30px;
+	
+	display : block;
+	background-color: #cc5200;
+	width:400px;
+	height:300px;
+	
+	opacity: 0.9;
+	
+}
+
+#loginbtn{
+	
+	border: 2px solid 90@ABx#;
+	padding: 10px 24px;
+	font-size: 15px;
+	background-color: #ffcc00;
+	border: none;
+	color: white;
+	text-align: center;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#loginbtn:hover {opacity: 1;}
+
+
+#leftblock2{
+	display: block;
+	border: blue;
+	float: left;
+	background:white;
+	width:25%;
+	height: 400px;
+	
+	
+	
+	background-image:url("../images/loginsideimg3.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+#rightblock2{
+	display: block;
+	border: 1px blue;
+	float: right;
+	background: white;
+	width: 75%;
+	height: 400px;
+	
+	background-image:url("../images/loginroad2.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+

@@ -1,0 +1,197 @@
+/*--Registration Form----*/
+#RegisterForm{
+	
+	text-align:left;
+	
+	margin-left:500px;
+	margin-right:30px;
+	
+	padding-top:50px ;
+	padding-right:30px;
+	padding-bottom:10px;
+	padding-left:30px;
+	
+	display : block;
+	background-color: #a8b4bd;
+	width:400px;
+	height:450px;
+	
+	opacity: 0.8;
+	
+}
+
+#submitbtn{
+	
+	border: 2px solid #002699;
+	padding: 10px 20px;
+}
+
+
+#RegSec{
+	background-image:url("../images/regBackground2.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+.regInput{
+	float: right;
+	margin-right: 100px;
+}
+
+
+
+
+
+
+/*---Profile Page----*/
+#leftBlock{
+		display: block;
+		border: blue;
+		float: left;
+		background:white;
+		width:40%;
+		height: 400px;
+		
+		background-image:url("../images/profile3.jpg");
+		/*background-repeat:no-repeat;*/
+		background-size: auto;
+	}
+
+#rightBlock{
+	display: block;
+	/*border-color: blue;*/
+	float: right;
+	background: white;
+	width: 60%;
+	height: 400px;
+	
+	background-image:url("../images/profile2.jpeg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+	background-size: auto;
+	
+}
+
+#details{
+	padding : 70px;
+	font-size: 18px;
+	
+	
+	
+}
+
+#profileuser{
+	
+	/*width: 150px;
+	height: auto;*/
+	
+	display: block;
+	margin-left: auto;
+	margin-right: 300px;
+	width: 40%;
+}
+
+#profileleft{
+	padding-left:250px;
+}
+
+
+#deletebtn{
+	border: 2px solid 90@ABx#;
+	padding: 10px 24px;
+	font-size: 15px;
+	background-color: #cc0000;
+	border: none;
+	color: white;
+	text-align: center;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#deletebtn:hover {opacity: 1;}
+
+#editbtn{
+	background-color: #33adff; 
+	color: black; 
+	border: 2px solid #008CBA;
+	padding: 10px 24px;
+	font-size: 16px;
+	margin-left:250px;
+	
+}
+
+#editbtn:hover{
+	background-color: #e6e600;
+	
+}
+
+/*---Edit profile page----*/
+
+#editForm{
+	
+	text-align:left;
+	
+	margin-left:500px;
+	margin-right:30px;
+	
+	padding-top:50px ;
+	padding-right:30px;
+	padding-bottom:10px;
+	padding-left:30px;
+	
+	display : block;
+	background-color: #a8b4bd;
+	width:400px;
+	height:450px;
+	
+	opacity: 0.8;
+	
+} 
+
+.editInput{
+	float: right;
+	margin-right: 100px;
+}
+
+#submiteditbtn{
+	border: 2px solid 90@ABx#;
+	padding: 10px 24px;
+	font-size: 15px;
+	background-color: #ffcc00;
+	border: none;
+	color: black;
+	text-align: center;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	margin-left:250px;
+}
+
+#submiteditbtn:hover {opacity: 1;}
+
+#editdiv{
+	background-image:url("../images/ride.jpeg");
+	background-size:1500px 600px;
+	background-attachment:cover;
+	background-repeat:no-repeat;
+}
+
+
+/*----View customer details page----*/
+
+#viewcus{
+	background-image:url("../images/profile3.jpg");
+	/*background-repeat:no-repeat;*/
+	background-size: auto;
+}
+
+
+
+
